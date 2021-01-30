@@ -1,5 +1,5 @@
 <template>
-	<v-container fluid class="ml-2">
+	<v-container fluid class="ml-sm-0 ml-md-0 ml-lg-3">
 		<v-alert prominent type="error" v-if="errored">
 			<v-row align="center">
 				<v-col class="grow">
@@ -18,7 +18,7 @@
 			<h3 class="headline font-weight-medium mb-7">Update Senators</h3>
 
 			<v-row>
-				<v-col cols="6">
+				<v-col cols="12" sm="12" md="6" lg="7">
 					<v-card>
 						<v-card-text class="py-10 px-8">
 							<ValidationObserver ref="form" v-slot="{ handleSubmit, reset }">
